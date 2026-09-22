@@ -1,1 +1,9 @@
                           hello everyone
+git is a verstion control system which store versions pof the projects 
+while github stores the versions of our project on cloud  and allows others to use our project 
+github depends on   git but git doesnot depend on github             
+git init-> will initialize the .git folder in the project folder it stores the vertions of our project
+git add file.txt ->this adds the file to make unstaged ready to commit
+git add .  -> all files will be unstaged in the folder
+git status ->allows us to check  the file status 
+git commit -m "initial commit" => this allows us to commit the changes to ou local repo
