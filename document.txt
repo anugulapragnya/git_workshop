@@ -1,9 +1,53 @@
                           hello everyone
-git is a verstion control system which store versions pof the projects 
-while github stores the versions of our project on cloud  and allows others to use our project 
+git is a version control system which stores versions of the project.git is a software 
+while github stores the versions of our project on cloud  and allows others to use our project .github is a website
 github depends on   git but git doesnot depend on github             
-git init-> will initialize the .git folder in the project folder it stores the vertions of our project
-git add file.txt ->this adds the file to make unstaged ready to commit
-git add .  -> all files will be unstaged in the folder
-git status ->allows us to check  the file status 
+git init->          will initialize the .git folder in the project folder it stores the vertions of our project
+git add file.txt ->   this adds the file to make unstaged ready to commit
+git add .  ->        all files will be unstaged in the folder
+git status ->        allows us to check  the file status 
 git commit -m "initial commit" => this allows us to commit the changes to ou local repo
+
+//now after chnaging the unstaged files the status would be modified we need to add again then it will be converted from staged->unstaged
+local repo=>working on our system and kkep it private
+
+              //if u want to create repo from cli
+
+echo "# git_workshop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anugulapragnya/git_workshop.git
+git push -u origin main
+
+                  
+                  //  If the repo is created by u manually after initiallize it on folder
+
+git remote add origin https://github.com/anugulapragnya/git_workshop.git
+git branch -M main
+git push -u origin main
+
+push just  the pushes versions on to github
+
+          //if u want to commit changes on another branch use
+
+git branch -m jeeva => changes branch name from main to given name like jeeva
+git checkout -b master =>creates branch
+git checkout master =>changes to master(checks if master is there)
+git add .
+git push origin master
+git branch =>gives all branches in the project
+
+git branch -d master //deletes the branchh
+
+                //pull
+git checkout master
+git pull origin main => pulls files from main to master
+
+
+
+
+
+
+
